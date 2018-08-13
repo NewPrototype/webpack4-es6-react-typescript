@@ -1,0 +1,35 @@
+{
+  "name": "webpack4-es6-react-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server  --open --color --hot --mode development --inline   --profile",
+    "build": " webpack  --mode production --progress --profile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NewPrototype/webpack4-es6-react-typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NewPrototype/webpack4-es6-react-typescript/issues"
+  },
+  "homepage": "https://github.com/NewPrototype/webpack4-es6-react-typescript#readme",
+  "dependencies": {
+    "@types/react": "^16.4.9",
+    "@types/react-dom": "^16.0.7",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "source-map-loader": "^0.2.3",
+    "typescript": "^3.0.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}
