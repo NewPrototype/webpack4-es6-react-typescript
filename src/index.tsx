@@ -1,19 +1,36 @@
 import * as React from 'react';
 import * as ReactDom from 'react-dom';
 
-import { Hello } from './components/Hello';
+import {HashRouter} from 'react-router-dom';
 
-import { aa } from './util/index'
 
-console.log(aa)
 
-console.log(module,'--')
+
+import Router from './router'
+import LeftNav from 'pages/leftNav'
+
+import './app.styl'
+
+declare let module: any;
+
 if (module.hot) {
   module.hot.accept();
 }
 
+class App extends React.Component {
+  render() {
+    return <div className='main'>
+      <LeftNav></LeftNav>
+       <Router />
+    </div>
+  }
+}
+
+
 
 ReactDom.render(
-  <Hello compiler={"string123"} framework="hi" />,
+  <HashRouter>
+    <App />
+  </HashRouter>,
   document.getElementById('example')
 );
