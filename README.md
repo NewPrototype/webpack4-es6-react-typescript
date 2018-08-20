@@ -13,3 +13,10 @@ jest 一个好的项目应该是存在大量测试代码
 - typescript 环境搭建
 - 搭建jest环境
 - 在typescript中使用jest测试
+
+##### 项目中比较棘手的问题
+- <del>typescript热更新 </del>
+- <del>antd 按需加载</del>
+
+
+
