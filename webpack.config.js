@@ -22,6 +22,7 @@ module.exports = {
     extensions: ['.ts', '.tsx', '.js', '.json'],
     alias: {
       "pages": path.resolve(__dirname, 'src/pages'),
+      "components": path.resolve(__dirname, 'src/components'),
     }
   },
   module: {

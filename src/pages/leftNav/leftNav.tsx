@@ -11,8 +11,8 @@ interface LeftNavProps {
 
 
 let router: object[] = [
-  { key: '/', text: '首页1', icon: 'pie-chart' },
-  { key: '/home2', text: '首页2', icon: 'mail' },
+  { key: '/', text: '首页', icon: 'pie-chart' },
+  { key: '/set', text: '设置', icon: 'mail' },
 ]
 
 export default withRouter<any>(
@@ -24,6 +24,9 @@ export default withRouter<any>(
       };
     }
     onSelect = (e: {key:string}) => {
+      if(this.props.history.location.pathname==e.key){
+        return 
+      }
       this.props.history.push(e.key)
     };
     render() {
