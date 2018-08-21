@@ -1,5 +1,5 @@
 import * as React from 'react';
-import './leftNav.styl';
+import './leftNav.less';
 
 import { Menu, Icon } from 'antd';
 

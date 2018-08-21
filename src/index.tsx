@@ -6,7 +6,7 @@ import { HashRouter } from 'react-router-dom';
 import Router from './router';
 import LeftNav from 'pages/leftNav';
 
-import './app.styl';
+import './app.less';
 
 declare let module: any;
 
@@ -16,7 +16,7 @@ if (module.hot) {
 
 ReactDom.render(
   <HashRouter>
-    <div className="main">
+    <div className="index">
       <LeftNav />
       <div className="content">
         <Router />

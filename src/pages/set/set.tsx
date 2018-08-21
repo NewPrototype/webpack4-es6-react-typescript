@@ -1,5 +1,5 @@
 import * as  React from 'react';
-import './set.styl';
+import './set.less';
 
 export default class Set extends React.Component {
   constructor(props:any) {
