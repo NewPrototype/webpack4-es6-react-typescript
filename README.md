@@ -1,6 +1,6 @@
-##### webpack4-es6-react-typescript
+#### webpack4-es6-react-typescript
 
-##### 前言
+#### 前言
 typescript 逐渐出现在大家的项目中，作为前端的一员，typescript还是必须掌握的知识
 jest 一个好的项目应该是存在大量测试代码，晋级必须要掌握的知识
 
@@ -8,20 +8,18 @@ jest 一个好的项目应该是存在大量测试代码，晋级必须要掌握
 #### 使用方法
 
 安装依赖
-```
-cnpm install  || npm install
+```cnpm install  || npm install```
 
-```
 启动测试
 - ```npm run jest```   单次运行
 - ```npm run watch```  检测运行
 - ```npm run reset```  快照覆盖
 启动项目
-- ```npm run start```  //启动项目
+- ```npm run start```  启动项目
 - ```npm run build ``` 打包
 
 
-##### TODO
+#### TODO
 - <del>typescript热更新 </del>
 - <del>antd 按需加载</del>
 - <del>jest 测试环境</del>
@@ -34,7 +32,7 @@ cnpm install  || npm install
 - --errorOnDeprecated  调用已弃用的API会抛出有用的错误消息。有助于简化升级过程。
 - --expand  使用此标志显示完整的差异和错误而不是补丁
 
-### 友情项目
+#### 友情项目
 
 webpack4-es6-react
 - 介绍：一个基于webpack4、es6、react、react-router4、axios技术的项目架构
