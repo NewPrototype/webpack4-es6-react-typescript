@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server  --open --color --hot --mode development --inline   --profile",
-    "build": " webpack  --mode production --progress --profile"
+    "build": " webpack  --mode production --progress --profile",
+    "watch": "jest --watchAll --cache -b --debug --errorOnDeprecated --expand",
+    "jest":"jest --cache -b --debug --errorOnDeprecated --expand",
+    "reset":"jest -u"
   },
   "repository": {
     "type": "git",

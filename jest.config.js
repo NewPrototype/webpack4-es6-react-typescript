@@ -16,5 +16,8 @@ module.exports = {
   ],
   "moduleNameMapper":{   //一些不解析文件 导入到空
     "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js"
-  }
+  },
+  verbose:true, //指示是否应在运行期间报告每个单独的测试。执行后，所有错误仍将显示在底部。
+
+
 }
