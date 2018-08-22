@@ -19,4 +19,16 @@ jest 一个好的项目应该是存在大量测试代码，晋级必须要掌握
 - <del>antd 按需加载</del>
 
 
+#### 使用
+- 运行项目
+```
+cnpm install  ||npm install
+```
+- 启动测试
+- ```jest```   //单次运行
+- ```jest --watch```  //jest --watch  检测运行
+- ```jest -u```   //快照覆盖
+
+
+
 

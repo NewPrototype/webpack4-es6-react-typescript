@@ -1,0 +1,331 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`React Components List init render  1`] = `
+<div
+  className="List"
+  onClick={[Function]}
+>
+  <div>
+    开始1
+  </div>
+  <div
+    className="ant-alert ant-alert-success ant-alert-no-icon"
+    data-show={true}
+  >
+    <span
+      className="ant-alert-message"
+    >
+      Success Text
+    </span>
+    <span
+      className="ant-alert-description"
+    />
+  </div>
+  ,
+  <ul
+    className="ant-timeline"
+  >
+    <li
+      className="ant-timeline-item"
+    >
+      <div
+        className="ant-timeline-item-tail"
+      />
+      <div
+        className="ant-timeline-item-head ant-timeline-item-head-blue"
+        style={
+          Object {
+            "borderColor": undefined,
+          }
+        }
+      />
+      <div
+        className="ant-timeline-item-content"
+      >
+        Create a services site 2015-09-01
+      </div>
+    </li>
+    <li
+      className="ant-timeline-item"
+    >
+      <div
+        className="ant-timeline-item-tail"
+      />
+      <div
+        className="ant-timeline-item-head ant-timeline-item-head-blue"
+        style={
+          Object {
+            "borderColor": undefined,
+          }
+        }
+      />
+      <div
+        className="ant-timeline-item-content"
+      >
+        Solve initial network problems 2015-09-01
+      </div>
+    </li>
+    <li
+      className="ant-timeline-item"
+    >
+      <div
+        className="ant-timeline-item-tail"
+      />
+      <div
+        className="ant-timeline-item-head ant-timeline-item-head-blue"
+        style={
+          Object {
+            "borderColor": undefined,
+          }
+        }
+      />
+      <div
+        className="ant-timeline-item-content"
+      >
+        Technical testing 2015-09-01
+      </div>
+    </li>
+    <li
+      className="ant-timeline-item ant-timeline-item-last"
+    >
+      <div
+        className="ant-timeline-item-tail"
+      />
+      <div
+        className="ant-timeline-item-head ant-timeline-item-head-blue"
+        style={
+          Object {
+            "borderColor": undefined,
+          }
+        }
+      />
+      <div
+        className="ant-timeline-item-content"
+      >
+        Network problems being solved 2015-09-01
+      </div>
+    </li>
+  </ul>
+  ,
+</div>
+`;
+
+exports[`React Components List onClick render 第一次点击 1`] = `
+<div
+  className="List"
+  onClick={[Function]}
+>
+  <div>
+    结束
+  </div>
+  <div
+    className="ant-alert ant-alert-success ant-alert-no-icon"
+    data-show={true}
+  >
+    <span
+      className="ant-alert-message"
+    >
+      Success Text
+    </span>
+    <span
+      className="ant-alert-description"
+    />
+  </div>
+  ,
+  <ul
+    className="ant-timeline"
+  >
+    <li
+      className="ant-timeline-item"
+    >
+      <div
+        className="ant-timeline-item-tail"
+      />
+      <div
+        className="ant-timeline-item-head ant-timeline-item-head-blue"
+        style={
+          Object {
+            "borderColor": undefined,
+          }
+        }
+      />
+      <div
+        className="ant-timeline-item-content"
+      >
+        Create a services site 2015-09-01
+      </div>
+    </li>
+    <li
+      className="ant-timeline-item"
+    >
+      <div
+        className="ant-timeline-item-tail"
+      />
+      <div
+        className="ant-timeline-item-head ant-timeline-item-head-blue"
+        style={
+          Object {
+            "borderColor": undefined,
+          }
+        }
+      />
+      <div
+        className="ant-timeline-item-content"
+      >
+        Solve initial network problems 2015-09-01
+      </div>
+    </li>
+    <li
+      className="ant-timeline-item"
+    >
+      <div
+        className="ant-timeline-item-tail"
+      />
+      <div
+        className="ant-timeline-item-head ant-timeline-item-head-blue"
+        style={
+          Object {
+            "borderColor": undefined,
+          }
+        }
+      />
+      <div
+        className="ant-timeline-item-content"
+      >
+        Technical testing 2015-09-01
+      </div>
+    </li>
+    <li
+      className="ant-timeline-item ant-timeline-item-last"
+    >
+      <div
+        className="ant-timeline-item-tail"
+      />
+      <div
+        className="ant-timeline-item-head ant-timeline-item-head-blue"
+        style={
+          Object {
+            "borderColor": undefined,
+          }
+        }
+      />
+      <div
+        className="ant-timeline-item-content"
+      >
+        Network problems being solved 2015-09-01
+      </div>
+    </li>
+  </ul>
+  ,
+</div>
+`;
+
+exports[`React Components List onClick render 第二次点击 1`] = `
+<div
+  className="List"
+  onClick={[Function]}
+>
+  <div>
+    开始1
+  </div>
+  <div
+    className="ant-alert ant-alert-success ant-alert-no-icon"
+    data-show={true}
+  >
+    <span
+      className="ant-alert-message"
+    >
+      Success Text
+    </span>
+    <span
+      className="ant-alert-description"
+    />
+  </div>
+  ,
+  <ul
+    className="ant-timeline"
+  >
+    <li
+      className="ant-timeline-item"
+    >
+      <div
+        className="ant-timeline-item-tail"
+      />
+      <div
+        className="ant-timeline-item-head ant-timeline-item-head-blue"
+        style={
+          Object {
+            "borderColor": undefined,
+          }
+        }
+      />
+      <div
+        className="ant-timeline-item-content"
+      >
+        Create a services site 2015-09-01
+      </div>
+    </li>
+    <li
+      className="ant-timeline-item"
+    >
+      <div
+        className="ant-timeline-item-tail"
+      />
+      <div
+        className="ant-timeline-item-head ant-timeline-item-head-blue"
+        style={
+          Object {
+            "borderColor": undefined,
+          }
+        }
+      />
+      <div
+        className="ant-timeline-item-content"
+      >
+        Solve initial network problems 2015-09-01
+      </div>
+    </li>
+    <li
+      className="ant-timeline-item"
+    >
+      <div
+        className="ant-timeline-item-tail"
+      />
+      <div
+        className="ant-timeline-item-head ant-timeline-item-head-blue"
+        style={
+          Object {
+            "borderColor": undefined,
+          }
+        }
+      />
+      <div
+        className="ant-timeline-item-content"
+      >
+        Technical testing 2015-09-01
+      </div>
+    </li>
+    <li
+      className="ant-timeline-item ant-timeline-item-last"
+    >
+      <div
+        className="ant-timeline-item-tail"
+      />
+      <div
+        className="ant-timeline-item-head ant-timeline-item-head-blue"
+        style={
+          Object {
+            "borderColor": undefined,
+          }
+        }
+      />
+      <div
+        className="ant-timeline-item-content"
+      >
+        Network problems being solved 2015-09-01
+      </div>
+    </li>
+  </ul>
+  ,
+</div>
+`;

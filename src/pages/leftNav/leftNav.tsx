@@ -15,8 +15,8 @@ let router: object[] = [
   { key: '/set', text: '设置', icon: 'mail' },
 ]
 
-export default withRouter<any>(
-  class LeftNav extends React.Component<LeftNavProps, { openKeys: string[] }> {
+
+export default class LeftNav extends React.Component<LeftNavProps, { openKeys: string[] }> {
     constructor(props: LeftNavProps) {
       super(props)
       this.state = {
@@ -50,7 +50,7 @@ export default withRouter<any>(
       );
     }
   }
-)
+
 
 
 
