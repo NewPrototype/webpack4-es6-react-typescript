@@ -22,3 +22,17 @@ export const isEmpty = (value: object): boolean => {
   }
   return true;
 }
+
+
+
+export let myAdd:(baseValue:number,increment:number)=>number=function (x,y){return x+y}
+
+
+
+let a=(x:number,y:number):number=>{
+  return x+y
+}
+
+export let b=<T>(arg:T):T=>{
+  return arg
+}

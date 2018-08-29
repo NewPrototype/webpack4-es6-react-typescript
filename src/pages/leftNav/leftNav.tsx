@@ -16,16 +16,17 @@ let router: object[] = [
 ]
 
 
-export default class LeftNav extends React.Component<LeftNavProps, { openKeys: string[] }> {
+export default  withRouter<any>(
+  class LeftNav extends React.Component<LeftNavProps, { openKeys: string[] }> {
     constructor(props: LeftNavProps) {
       super(props)
       this.state = {
         openKeys: ['sub1'],
       };
     }
-    onSelect = (e: {key:string}) => {
-      if(this.props.history.location.pathname==e.key){
-        return 
+    onSelect = (e: { key: string }) => {
+      if (this.props.history.location.pathname == e.key) {
+        return
       }
       this.props.history.push(e.key)
     };
@@ -45,11 +46,13 @@ export default class LeftNav extends React.Component<LeftNavProps, { openKeys: s
               </Menu.Item>
             })
           }
-         
+
         </Menu>
       );
     }
   }
+)
+
 
 
 
