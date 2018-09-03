@@ -1,4 +1,4 @@
-import * as React from 'react';
+// import * as React from 'react';
 import * as ReactDom from 'react-dom';
 
 import { HashRouter } from 'react-router-dom';

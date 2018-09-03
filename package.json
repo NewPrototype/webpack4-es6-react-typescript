@@ -3,12 +3,13 @@
   "version": "1.0.1",
   "description": "",
   "main": "index.js",
+  "typings": "index.d.ts",
   "scripts": {
     "start": "webpack-dev-server  --open --color --hot --mode development --inline   --profile",
     "build": " webpack  --mode production --progress --profile",
     "watch": "jest --watchAll --cache -b --debug --errorOnDeprecated --expand",
-    "jest":"jest --cache -b --debug --errorOnDeprecated --expand",
-    "reset":"jest -u"
+    "jest": "jest --cache -b --debug --errorOnDeprecated --expand",
+    "reset": "jest -u"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
     "@types/react-dom": "^16.0.7",
     "@types/react-loadable": "^5.4.1",
     "@types/react-router-dom": "^4.3.0",
+    "@types/react-test-renderer": "^16.0.2",
     "antd": "^3.8.2",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",

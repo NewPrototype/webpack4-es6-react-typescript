@@ -1,12 +1,13 @@
-import * as React from 'react';
+import * as React from 'React';
 import List from './../src/components/List';
 
+import * as ReactTestRenderer from 'react-test-renderer';
 
-import { create } from 'react-test-renderer';
+
 
 
 describe('React Components', () => {
-  const component = create(
+  const component =ReactTestRenderer.create(
     <List />
   );
   let tree = component.toJSON();

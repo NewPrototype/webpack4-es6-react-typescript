@@ -1,3 +1,5 @@
+import { rejects } from "assert";
+
 export const sum = (a: number, b: number): number => {
   return a + b
 }
@@ -35,4 +37,23 @@ let a=(x:number,y:number):number=>{
 
 export let b=<T>(arg:T):T=>{
   return arg
+}
+
+
+export const testCallBack=(callback:any)=>{
+  let a=1,b=2;
+  callback(3)
+}
+
+
+export const testPromise=()=>{
+  return new Promise((resolve,rejects)=>{
+    setTimeout(() => {
+      resolve(3)
+    }, 300);
+  })
+}
+
+export const testAsync= async ()=>{
+  return await a(1,2);
 }
