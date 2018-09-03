@@ -1,7 +1,5 @@
 import { testCallBack ,testPromise,testAsync} from './../src/util/index';
 
-
-
 describe('测试', () => {
   it('测试回调函数',(done)=>{
     function callback(data) {

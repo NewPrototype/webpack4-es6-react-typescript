@@ -1,50 +1,7 @@
 
 import { sum, isEmpty } from './../src/util/index'
 
-expect.extend({
-  empty(received, argument){
-    console.log(received,argument)
-    const pass = (received % argument == 0);
-    if (pass) {
-      return {
-        message: () => (
-          `expected ${received} not to be divisible by ${argument}`
-        ),
-        pass: false,
-      };
-    } else {
-      return {
-        message: () => (`expected ${received} to be divisible by ${argument}`),
-        pass: false,
-      };
-    }
-  },
-})
-expect.extend({
-    /**
-   *
-   *
-   * @param {原数据对象} received
-   * @param {输出对象} argument
-   * @returns
-   */
-  toBeDivisibleBy(received, argument) {
-    const pass = (received % argument == 0);
-    if (pass) {
-      return {
-        message: () => (
-          `expected ${received} not to be divisible by ${argument}，没有余数`
-        ),
-        pass: true,
-      };
-    } else {
-      return {
-        message: () => (`expected ${received} to be divisible by ${argument},有余数，错误`),
-        pass: false,
-      };
-    }
-  },
-});
+
 
 const shoppingList = [
   'diapers',
@@ -82,13 +39,9 @@ describe('util index.js', () => {
   test('the shopping list has beer on it', () => {
     expect(shoppingList).toContain('beer');
   });
-  // test('the shopping list has toEqual on it', () => {
-  //   expect(shoppingList).toEqual({ a: 1 });
-  // });
-  test('even and odd numbers', () => {
-    expect(100).toBeDivisibleBy(2);
-    expect(101).not.toBeDivisibleBy(2);
-  })
+  // test('even and odd numbers111', () => {
+  //   expect(101).not.toBeDivisibleBy(2);
+  // })
 })
 
 
