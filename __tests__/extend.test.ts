@@ -8,6 +8,7 @@ expect.extend({
  * @returns
  */
 toBeDivisibleBy(received, argument) {
+  console.log(received,'-------');
   const pass = (received % argument == 0);
   if (pass) {
     return {
