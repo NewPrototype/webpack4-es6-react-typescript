@@ -8,14 +8,10 @@ import { withRouter } from 'react-router-dom';
 interface LeftNavProps {
   history: any,
 }
-
-
 let router: object[] = [
   { key: '/', text: '首页', icon: 'pie-chart' },
   { key: '/set', text: '设置', icon: 'mail' },
 ]
-
-
 export default  withRouter<any>(
   class LeftNav extends React.Component<LeftNavProps, { openKeys: string[] }> {
     constructor(props: LeftNavProps) {

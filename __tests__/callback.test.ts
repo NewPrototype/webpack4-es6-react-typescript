@@ -2,7 +2,7 @@ import { testCallBack ,testPromise,testAsync} from './../src/util/index';
 
 describe('测试', () => {
   it('测试回调函数',(done)=>{
-    function callback(data) {
+    function callback(data:any) {
       expect(data).toBe(3)
       done();
     }
