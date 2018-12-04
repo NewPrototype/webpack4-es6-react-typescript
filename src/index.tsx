@@ -4,7 +4,7 @@ import * as ReactDom from 'react-dom';
 import { HashRouter } from 'react-router-dom';
 
 import Router from './router';
-import LeftNav from 'pages/leftNav';
+import LeftNav from '@/pages/leftNav';
 
 import './app.less';
 

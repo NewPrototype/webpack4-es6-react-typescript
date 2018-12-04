@@ -32,7 +32,7 @@ const routers = [
     path: '/',
     exact: true,
     component: Loadable({
-      loader: () => import('pages/home/index'),
+      loader: () => import('@/pages/home/index'),
       loading: Loading,
     })
   },
@@ -40,7 +40,7 @@ const routers = [
     path: '/set',
     exact: true,
     component: Loadable({
-      loader: () => import('pages/set/index'),
+      loader: () => import('@/pages/set/index'),
       loading: Loading,
     })
   }
