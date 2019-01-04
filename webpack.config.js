@@ -2,18 +2,10 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin'); //html
 const tsImportPluginFactory = require('ts-import-plugin')
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin'); //多线程压缩
-
 const MiniCssExtractPlugin = require('mini-css-extract-plugin'); //css压缩
-
-
 const HappyPack = require('happypack'); //多线程运行
-
 const CleanWebpackPlugin = require('clean-webpack-plugin') //清空
-
-
 const happyThreadPool = HappyPack.ThreadPool({ size: 4 });
-
-
 const { argv } = process;
 
 let developmentMode = true;  //开发模式
@@ -90,10 +82,17 @@ module.exports = {
   resolve: {
     // Add '.ts' and '.tsx' as resolvable extensions.
     extensions: ['.ts', '.tsx', '.js', '.json'],
+    mainFields: ['main', 'jsnext:main', 'browser'], 
     alias: {
       "pages": path.resolve(__dirname, 'src/pages'),
+      "config": path.resolve(__dirname, 'src/config'),
+      "lib": path.resolve(__dirname, 'src/lib'),
+      "store": path.resolve(__dirname, 'src/store'),
+      "router": path.resolve(__dirname, 'src/router'),
+      "util": path.resolve(__dirname, 'src/util'),
       "components": path.resolve(__dirname, 'src/components'),
-      "@":  path.resolve(__dirname, 'src'),
+      "ax": path.resolve(__dirname, 'src/axios'),
+      
     }
   },
   module: {

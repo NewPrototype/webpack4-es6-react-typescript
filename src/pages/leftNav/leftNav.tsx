@@ -1,10 +1,8 @@
 import * as React from 'react';
-import './leftNav.less';
 
 import { Menu, Icon } from 'antd';
-
 import { withRouter } from 'react-router-dom';
-
+import './leftNav.less';
 interface LeftNavProps {
   history: any,
 }
