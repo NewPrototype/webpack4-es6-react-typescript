@@ -18,7 +18,7 @@ class Home extends React.Component<any, {}> {
   render() {
     return (
       <div className="home">
-        1234
+        12112
         test 2222
         <span onClick={this.init}>--------12</span>\
       </div>
