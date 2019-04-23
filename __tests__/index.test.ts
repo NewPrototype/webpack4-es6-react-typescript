@@ -1,5 +1,5 @@
 
-// import { sum, isEmpty } from './../src/util/index'
+import  sum from './../src/util/index'
 
 
 
@@ -13,11 +13,11 @@
 // ];
 
 
-// describe('util index.js', () => {
-//   it('sum 1 + 2 to equal 3', () => {
-//     // console.log(expect)
-//     expect(sum(1, 2)).toBe(3);
-//   });
+describe('util index.js', () => {
+  it('sum 1 + 2 to equal 3', () => {
+    // console.log(expect)
+    expect(sum(1, 2)).toBe(3);
+  });
 //   it('isEmpty {a:1}', () => {
 //     expect(isEmpty({ a: 1 })).toBeFalsy()
 //   })
@@ -39,9 +39,9 @@
 //   test('the shopping list has beer on it', () => {
 //     expect(shoppingList).toContain('beer');
 //   });
-//   // test('even and odd numbers111', () => {
-//   //   expect(101).not.toBeDivisibleBy(2);
-//   // })
-// })
+  // test('even and odd numbers111', () => {
+  //   expect(101).not.toBeDivisibleBy(2);
+  // })
+})
 
 

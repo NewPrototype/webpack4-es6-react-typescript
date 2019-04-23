@@ -33,7 +33,8 @@
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-loadable": "^5.5.0",
-    "react-router-dom": "^4.3.1"
+    "react-router-dom": "^4.3.1",
+    "react-virtualized": "^9.21.0"
   },
   "devDependencies": {
     "@types/jest": "^23.3.1",
