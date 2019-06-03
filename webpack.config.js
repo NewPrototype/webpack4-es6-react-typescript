@@ -66,6 +66,7 @@ module.exports = {
     compress: true, //开发服务器是否启动gzip等压缩
     port: 9001, //端口
     historyApiFallback: true, //不会出现404页面，避免找不到
+    progress:true,
   },
   output: {
     filename:'index.js',
